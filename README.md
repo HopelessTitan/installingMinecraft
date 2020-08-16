@@ -1,8 +1,9 @@
 # Hosting a Minecraft Server.
 ## Setup.
 
-###### Prerequisites:
+#### Prerequisites:
 > If modded, Forge/Fabric Installer
+
 > 8-16GB of RAM
 
 Below instructions will be written for Forge but can be used for Fabric aswell.
@@ -11,7 +12,7 @@ Forge can be obtained from http://files.minecraftforge.net/
 The left hand panel will have the versions of forge that you need. 
 Click on the required version and download the **Installer** in the Recommended list.
 
-###### Host Folder and Structure:
+#### Host Folder and Structure:
 
 Have a location for the minecraft server reserved. This can be desktop or anywhere else, as long as SYSTEM has write permissions there.
 
@@ -23,7 +24,7 @@ Minecraft Servers
 - 1.12 (Server Version)
   - RLCraft
 
-###### Installation and first run:
+#### Installation and first run:
 
 After you've set up your folder structure, run the forge installer.
 Click on the **"Install Server"** option and then set the location to the reserved folder. Following the above example, this will be the folder "RLCRraft".
@@ -33,7 +34,7 @@ Once installation is complete, navigate to the folder, and run the forge .jar fi
 A CMD Terminal will open and then close. 
 You'll find a new file named *"eula.txt"*, open this file with notepad and edit the last line from **false** to **true**, save and close.
 
-###### Final server start setup:
+#### Final server start setup:
 
 Right click in the folder, click new and then click Text Document. 
 Enable *File Name Extensions* which can be found in the View tab of the File Explorer.
@@ -56,7 +57,7 @@ After this, save the file and rename it to **serverStart.bat** or something, the
 You can now host minecraft, but I suggest you keep reading.
 
 ## Configuration.
-###### sever.properties.
+#### sever.properties.
 
 After running the servevr jar for the first time, it will generate a file named *server.properties*. There's some important stuff to change in there. Get comfortable with editing this file.
 
